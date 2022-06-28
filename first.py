@@ -1,9 +1,6 @@
 import sqlite3 as sql
 
-
 def input(fo,h,t):
-    
-    
     con = sql.connect('database.db')
     try:
         
